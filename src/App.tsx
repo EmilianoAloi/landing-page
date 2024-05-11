@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Tech from './components/Tech';
+import Brands from './components/Brands';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
       <div className='body-container'>
         <Services />
         <Tech />
+        <Brands />
+        <Footer />
 
       </div>
     </>
