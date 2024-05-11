@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular Std", sans-serif;
+  font-style: normal;
+  background-color: #273244;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.custom-gray {
+  color: #818792 !important;
+}
+
+.custom-blue {
+  color: #3871ff;
+}
+
+.custom-blue-bg {
+  background-color: #3871ff;
+}
+
+.bg-right-top {
+  background-image: url("/src/assets/asset-background.jpg");
+  background-size: 17rem auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-bottom: 4rem;
+}
+
+.hero {
+  padding-top: 10rem;
+}
+
+.hero p {
+  font-size: 0.8rem;
+}
+
+.hero div button {
+  font-size: 12px;
+}
+
+.hero div button {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.action-card h3 {
+  font-size: 14px;
+}
+
+.action-card p {
+  font-size: 12px;
+}
+
+
+.card-img {
+  background-image: url("/src/assets/iphone.png");
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: none;
+
+}
+
+.tech-container {
+  margin-top: -12rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+
+.footer-container {
+  padding-bottom: 5rem;
+}
+
+/* Media querys */
+
+@media (min-width: 576px) {
+
+  .hero {
+    padding-top: 2rem;
+    width: 60%;
+    height: 23rem;
+  }
+
+  .bg-right-top {
+    background-size: 22rem auto;
+  }
+
+  .services-container {
+    margin-top: -6rem;
+  }
+
+  .tech-container {
+    text-align: start !important;
+  }
+
+  .tech-container h2 {
+    font-size: 2rem !important;
+  }
+
+  .tech-container p {
+    font-size: 1.2rem !important;
+  }
+
+  .card-img {
+    background-size: 15rem auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .card-column {
+    max-width: 75% !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .bg-right-top {
+    background-size: 30rem auto;
+    background-position: top right;
+  }
+
+  .hero {
+    width: 30rem;
+    gap: 1rem;
+    padding-top: 6rem;
+    height: 33rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .hero p {
+    font-size: 1rem !important;
+  }
+
+
+  .action-card h3 {
+    font-size: 20px;
+  }
+
+  .action-card p {
+    font-size: 14px;
+  }
+
+  .tech-container h2 {
+    font-size: 2.4rem !important;
+  }
+
+  .tech-container p {
+    font-size: 1.4rem !important;
+  }
+
+  .tech-container-logos {
+    flex-direction: column !important;
+  }
+
+  .card-container {
+    height: 20rem;
+  }
+
+  .card-img {
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: block;
+    width: 50%;
+  }
+
+  .brands-container {
+    height: 52rem;
+  }
+
+  .footer-container {
+    padding-top: 10rem !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .bg-right-top {
+    background-size: 52rem auto;
+    height: 130vh;
+  }
+
+  .hero {
+    width: 48rem;
+    gap: 1rem;
+    padding-top: 14rem;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem !important;
+  }
+
+  .hero p {
+    font-size: 1.6rem !important;
+  }
+
+  .hero div button {
+    font-size: 18px;
+  }
+
+  .services-container {
+    margin-top: -15rem;
+  }
+
+  .services-container h2 {
+    font-size: 2.5rem !important;
+  }
+
+  .services-container-subtitle {
+    font-size: 1.3rem !important;
+  }
+
+  .action-card-text {
+    font-size: 1.08rem !important;
+  }
+
+  .tech-container h2 {
+    font-size: 2.5rem !important;
+  }
+
+  .tech-container p {
+    font-size: 1.6rem !important;
+  }
+
+  .action-card {
+    padding: 3rem;
+  }
+
+  .brands-container {
+    height: 30rem;
+  }
+
+  .brands {
+    flex-direction: row !important;
+  }
+}
