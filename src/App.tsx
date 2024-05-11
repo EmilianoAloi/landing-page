@@ -4,6 +4,8 @@ import './font/stylesheet.css'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Tech from './components/Tech';
+
 function App() {
 
   return (
@@ -16,6 +18,7 @@ function App() {
       </div>
       <div className='body-container'>
         <Services />
+        <Tech />
 
       </div>
     </>
