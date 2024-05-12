@@ -22,11 +22,6 @@ Este proyecto está desarrollado a partir del siguiente jpg:
 
 ```bash
 
-git clone https://github.com/EmilianoAloi/landing-page
-cd landing-page
-npm install
-npm run dev
-
 # clonar
 git clone https://github.com/EmilianoAloi/landing-page
 
