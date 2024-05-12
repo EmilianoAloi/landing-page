@@ -11,18 +11,32 @@ Este proyecto está desarrollado a partir del siguiente jpg:
    <img width="1024" src="public/landing.png" alt="screenshot">
 
 
-# Features
+# Características
 
 - Componentes web dinámicos para una mejor interacción del usuario.
 - Diseño responsivo para asegurar que el sitio web funcione en celulares, tablets y pantallas grandes.
 - Uso avanzado de animaciones para mejorar la experiencia del usuario.
 
 
-## Getting Started
-
+## Instalación rápida 
 
 ```bash
+
 git clone https://github.com/EmilianoAloi/landing-page
 cd landing-page
 npm install
 npm run dev
+
+# clonar
+git clone https://github.com/EmilianoAloi/landing-page
+
+# entrar a directorio del proyecto
+cd landing-page
+
+# instalar dependencias
+npm install
+
+# levantar el proyecto
+npm run dev
+
+```
