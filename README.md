@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# <span style="color: #fff;"> Landing Page Tech  </span>
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/static/v1?style=for-the-badge&message=Vite&color=373e47&logo=Vite&logoColor=967cff&label=)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-e630bf?style=for-the-badge&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=373e47&logo=Vercel&logoColor=FFFFFF&label=)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto está desarrollado a partir del siguiente jpg:
 
-Currently, two official plugins are available:
+   <img width="1024" src="public/landing.png" alt="screenshot">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Componentes web dinámicos para una mejor interacción del usuario.
+- Diseño responsivo para asegurar que el sitio web funcione en celulares, tablets y pantallas grandes.
+- Uso avanzado de animaciones para mejorar la experiencia del usuario.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+```bash
+git clone https://github.com/EmilianoAloi/landing-page
+cd landing-page
+npm install
+npm run dev
