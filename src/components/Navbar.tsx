@@ -1,6 +1,7 @@
 import { HiRectangleGroup } from "react-icons/hi2";
+import { FC } from "react"
 
-const Navbar = () => {
+const Navbar: FC = () => {
     return (
         <header className="">
             <nav className="navbar navbar-expand-lg navbar-dark d-flex py-4">

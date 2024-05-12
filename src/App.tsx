@@ -7,23 +7,29 @@ import Services from './components/Services';
 import Tech from './components/Tech';
 import Brands from './components/Brands';
 import Footer from './components/Footer';
+import { motion } from 'framer-motion';
+import { FC } from "react"
 
-function App() {
+const App: FC = () => {
 
   return (
     <>
-      <div className='bg-right-top'>
+      <motion.div
+        className='bg-right-top'
+        initial={{ y: -100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
+      >
         <div className='container h-100'>
           <Navbar />
           <Hero />
         </div>
-      </div>
+      </motion.div>
       <div className='body-container'>
         <Services />
         <Tech />
         <Brands />
         <Footer />
-
       </div>
     </>
   )

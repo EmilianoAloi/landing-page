@@ -1,9 +1,10 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import { FC } from "react"
 
-const Hero = () => {
+const Hero: FC = () => {
     return (
         <>
-            <div className="text-start d-flex gap-3 flex-column">
+            <section className="text-start d-flex gap-3 flex-column">
                 <div className="hero d-flex  flex-column justify-content-start">
                     <h1 className="fw-semibold fs-2"> We build beautiful and <br /> reliable web solutions </h1>
                     <p className="custom-gray">
@@ -16,7 +17,7 @@ const Hero = () => {
                         <button className="btn btn-primary custom-blue-bg pb-2 align-items-center d-flex gap-1 rounded-1 fw-semibold">Our Projects <MdArrowRightAlt size={25} /></button>
                     </div>
                 </div>
-            </div>
+            </section>
         </>)
 }
 

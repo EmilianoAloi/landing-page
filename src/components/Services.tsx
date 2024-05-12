@@ -2,10 +2,18 @@ import ActionCard from "./Cards/ActionCard";
 import { IoIosPaper } from "react-icons/io";
 import { MdDeveloperMode } from "react-icons/md";
 import { motion } from "framer-motion";
+import { ComponentType, FC } from "react"
 
-const Services = () => {
 
-    const serviceCards = [
+interface ServiceCard {
+    icon: ComponentType<{ size?: number }>;
+    title: string;
+    body: string;
+}
+
+const Services: FC = () => {
+
+    const serviceCards: ServiceCard[] = [
         { icon: IoIosPaper, title: "Business & Product Concept", body: " Analyse business and product concepts at Start-up Workshops or Ongoing Projects´ Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit." },
         { icon: MdDeveloperMode, title: "Web & Mobile Development", body: "Plan, develop and test high-quality web-applications using AngularJS, NodeJS, JavaScript, Typescript, HTML5 and SASS/CSS3 frameworks and native mobile languages." },
         { icon: MdDeveloperMode, title: "UX & UI Design", body: "Sketch information architecture and simple mock-ups, convert them into clickeable prototypes and finish with usable interface designs to deliver a good and reliable user exprience." }

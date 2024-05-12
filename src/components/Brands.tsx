@@ -6,9 +6,17 @@ import africa from "../assets/africa.png"
 import iphone from "../assets/iphone.png"
 import { motion } from "framer-motion"
 import Card from "./Cards/Card"
+import { FC } from "react"
 
-const Brands = () => {
-    const contactCards = [
+interface ContactCard {
+    img?: string;
+    title: string;
+    body: string;
+    textBtn: string;
+}
+
+const Brands: FC = () => {
+    const contactCards: ContactCard[] = [
         { img: "", title: "Get in touch with us", body: "Maecenas sed diam eget risus varius blandit sit amet non magna.", textBtn: "Hire us" },
         { img: iphone, title: "Our Projects", body: "Maecenas sed diam eget risus varius blandit sit amet non magna.", textBtn: "See Projects" }
     ]
@@ -27,7 +35,6 @@ const Brands = () => {
                     <img className="brand-img " src={airbnb} alt="airbnb logo" />
                     <img className="brand-img " src={africa} alt="africa logo" />
                 </motion.div>
-
                 <div className="">
                     <div className="row row-gap-3 ">
                         {contactCards.map((card, i) => (

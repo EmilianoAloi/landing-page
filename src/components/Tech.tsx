@@ -5,8 +5,9 @@ import angular from "../assets/angular.png"
 import python from "../assets/python.png"
 import node from "../assets/node.png"
 import { motion } from "framer-motion"
+import { FC } from "react"
 
-const Tech = () => {
+const Tech: FC = () => {
     return (
         <section id="tech" className="custom-blue-bg tech-container text-center d-flex align-items-center justify-content-center ">
             <div className="container">
